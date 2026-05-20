@@ -105,12 +105,14 @@ elif(page=="Projects"):
         st.divider()
 
     with st.container(border=True):
-        st.subheader("StudyOS")
-        st.write("Coming Soon!!!")
+        st.subheader("Code Reviewer")
+        st.write("AI-powered code reviewer built with Streamlit and Gemini API. Paste your code and get instant bug detection, improvements and quality score.")
+        st.write("Tech: Python, Streamlit, Gemini API  ")
+        st.link_button("View on GitHub", "https://github.com/devflux25/code-reviewer-bot")
         st.divider()
 
     with st.container(border=True):
-        st.subheader("Code Reviewer")
+        st.subheader("StudyOS")
         st.write("Coming Soon!!!")
         st.divider()
 
