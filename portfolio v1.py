@@ -113,7 +113,9 @@ elif(page=="Projects"):
 
     with st.container(border=True):
         st.subheader("StudyOS")
-        st.write("Coming Soon!!!")
+        st.write("an AI study companion for students. Upload your notes → get quizzed → track weak topics → get a personalized study plan")
+        st.write("Tech: Built with Python, LangChain, FAISS, SQLITE 3 and Gemini API ")
+        st.link_button("View on GitHub","https://github.com/devflux25/studyos")
         st.divider()
 
 
